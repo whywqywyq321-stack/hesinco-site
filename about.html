@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="assets/images/logo/favicon-64.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/images/logo/hesin_icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About & Contact — HESIN</title>
+  <meta name="description" content="HESIN is the overseas expansion division of a certified Chinese specialty-vehicle manufacturer. Send an inquiry for truck cranes, pickup customization and motorhomes.">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tencent-ai/workbuddy-cloud-sdk@dev/lib/index.global.js"></script>
+  <script src="assets/config.js"></script>
+  <script src="assets/cloud.js"></script>
+  <script src="assets/data.js"></script>
+  <script src="assets/i18n.js"></script>
+  <script src="assets/app.js"></script>
+</head>
+<body data-page="about">
+  <header id="topbar"></header>
+  <section>
+    <div class="wrap">
+      <div class="eyebrow" data-i18n="about.eyebrow">ABOUT HESIN</div>
+      <h1 class="section-title" data-i18n="about.h1">About Us & Contact</h1>
+      <p class="section-sub" data-i18n="about.sub">We are the overseas expansion division of a certified Chinese specialty-vehicle manufacturer with 138+ MIIT-announced models. Factory-direct, not a trader — we engineer, modify, inspect and export for you.</p>
+
+      <div class="pillars four" style="margin-bottom:46px">
+        <div class="pillar"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/></svg></div><h3 data-i18n="about.p1.t">138+ Announcements</h3><p data-i18n="about.p1.d">Full range of MIIT-certified specialty vehicles — compliant for export.</p></div>
+        <div class="pillar"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 2.8v5.4c0 4.8-3.4 7.7-7 9.8-3.6-2.1-7-5-7-9.8V5.8z"/><path d="M9 12l2.2 2.2L15.5 9.7"/></svg></div><h3 data-i18n="about.p2.t">3C & Export-Ready</h3><p data-i18n="about.p2.d">Certified, tax-refundable export — no surprises at customs.</p></div>
+        <div class="pillar"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 21h19"/><path d="M4.5 21V10.5l5 3.2V10.5l5 3.2V5h5v16"/><path d="M16 8.5h.01M16 12h.01M16 15.5h.01"/><path d="M7 21v-3.5h3V21"/></svg></div><h3 data-i18n="about.p3.t">Factory-Direct</h3><p data-i18n="about.p3.d">No middlemen, no stacked margins. You deal with the source.</p></div>
+        <div class="pillar"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="12" r="2.3"/><circle cx="19" cy="5" r="2.3"/><circle cx="19" cy="19" r="2.3"/><path d="M7.1 10.9l9.8-4.8M7.1 13.1l9.8 4.8"/></svg></div><h3 data-i18n="about.p4.t">One-Stop</h3><p data-i18n="about.p4.d">Chassis sourcing → modification → inspection → export clearance.</p></div>
+      </div>
+
+      <h2 class="section-title" data-i18n="about.certs">Certifications & Company Strength</h2>
+      <p class="section-sub" data-i18n="about.certssub">Official certificates proving Lingyang's vehicle manufacturing and export qualifications — recognized by Chinese authorities and international standards.</p>
+      <div class="cert-grid" id="cert-grid"></div>
+
+      <h2 class="section-title" id="contact" style="text-align:center" data-i18n="about.contact">Send Us an Inquiry</h2>
+      <p class="section-sub" style="text-align:center" data-i18n="about.contactsub">Tell us your market and what you need. We reply within 1–2 business days. Your information is kept confidential.</p>
+
+      <form id="lead-form" class="form-card" style="margin-left:auto;margin-right:auto">
+        <div id="form-alert" class="alert"></div>
+        <div class="field">
+          <label data-i18n="form.type">I am a *</label>
+          <select name="customer_type" required>
+            <option value="Distributor" data-i18n="form.type1">Overseas Vehicle Distributor</option>
+            <option value="Engineering" data-i18n="form.type2">Engineering Company / Contractor</option>
+            <option value="RV" data-i18n="form.type3">RV Dealer / Converter / Enthusiast</option>
+            <option value="Other" data-i18n="form.type4">Other</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <div class="field"><label data-i18n="form.name">Name *</label><input name="name" required></div>
+          <div class="field"><label data-i18n="form.company">Company</label><input name="company"></div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label data-i18n="form.email">Email *</label><input type="email" name="email" required></div>
+          <div class="field"><label data-i18n="form.phone">Phone / WhatsApp</label><input name="phone"></div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label data-i18n="form.country">Country</label><input name="country"></div>
+          <div class="field">
+            <label data-i18n="form.interest">Vehicle of interest</label>
+            <select name="vehicle_interest">
+              <option value="Truck Crane" data-i18n="form.interest1">Truck Crane</option>
+              <option value="Pickup/SUV" data-i18n="form.interest2">Pickup & SUV Customization</option>
+              <option value="Motorhome" data-i18n="form.interest3">Motorhome / RV</option>
+              <option value="Other" data-i18n="form.interest4">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="field"><label data-i18n="form.msg">Message</label><textarea name="message" rows="4" data-i18n-ph="form.msgph" placeholder="Tell us the base vehicle, quantity, target market and any certification required."></textarea></div>
+        <button id="submit-btn" type="submit" class="btn" data-i18n="form.submit">Submit Inquiry</button>
+        <p class="note" data-i18n="form.note">By submitting, you agree to be contacted by our export team. We never share your details with third parties.</p>
+      </form>
+    </div>
+  </section>
+  <footer id="site-footer"></footer>
+</body>
+</html>
