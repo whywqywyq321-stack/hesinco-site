@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hesinco.com/sitemap.xml
