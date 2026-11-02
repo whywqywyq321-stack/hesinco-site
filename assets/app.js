@@ -96,7 +96,7 @@ function buildFooter() {
         <a href="about.html#contact">${t('footer.contact')}</a>
       </div>
     </div>
-    <div class="wrap footer-bottom"><span>${t('footer.copy')}</span></div>
+    <div class="wrap footer-bottom"><span>${t('footer.copy')}</span><a class="icp" href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">粤ICP备2026170727号</a></div>
     <div class="wrap footer-qr">
       <div class="qr-row">
         <div class="qr-card"><img src="assets/images/social/social_wechat_s.jpg" alt="WeChat QR"><span class="qr-name">${t('contact.wechat')}</span></div>
