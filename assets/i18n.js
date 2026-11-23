@@ -9,7 +9,7 @@ window.LANGS = [
 window.I18N = {
   en: {
     'nav.home': 'Home', 'nav.trucks': 'Truck Cranes', 'nav.suv': 'Pickup & SUV',
-    'nav.rv': 'Motorhomes', 'nav.about': 'About & Contact', 'nav.gallery': 'Gallery', 'gallery.title': 'LINGYANG Product Gallery', 'gallery.subtitle': 'Official model photographs from the LINGYANG catalog - truck cranes, motorhomes, pickups & specialty vehicles.', 'gallery.download': 'Download Full Catalog (PDF)', 'gallery.view': 'Tap a photo to enlarge', 'gallery.officialTitle': 'HESIN Official Vehicle Photos', 'gallery.officialSub': 'Real photographs extracted from the LINGYANG product catalog - every model as built.',
+    'nav.rv': 'Motorhomes', 'nav.about': 'About & Contact', 'nav.gallery': 'Gallery', 'nav.news': 'News', 'gallery.title': 'LINGYANG Product Gallery', 'gallery.subtitle': 'Official model photographs from the LINGYANG catalog - truck cranes, motorhomes, pickups & specialty vehicles.', 'gallery.download': 'Download Full Catalog (PDF)', 'gallery.view': 'Tap a photo to enlarge', 'gallery.officialTitle': 'HESIN Official Vehicle Photos', 'gallery.officialSub': 'Real photographs extracted from the LINGYANG product catalog - every model as built.',
     'footer.tagline': 'Overseas expansion division of a certified Chinese specialty-vehicle manufacturer. Tell us what you need, we build it and ship it to you.',
     'footer.products': 'Products', 'footer.company': 'Company',
     'footer.about': 'About Us', 'footer.contact': 'Contact / Inquiry',
@@ -106,7 +106,7 @@ window.I18N = {
 
   zh: {
     'nav.home': '首页', 'nav.trucks': '随车吊', 'nav.suv': '皮卡 & SUV 改装',
-    'nav.rv': '房车', 'nav.about': '关于 & 联系', 'nav.gallery': '车型图库', 'gallery.title': '凌扬车型图库', 'gallery.subtitle': '凌扬官方画册车型实拍——随车吊、房车、皮卡及各类专用车。', 'gallery.download': '下载完整画册（PDF）', 'gallery.view': '点击图片可放大查看', 'gallery.officialTitle': '凌扬官方车型实拍', 'gallery.officialSub': '取自凌扬产品画册的真实车型照片——每台车实拍呈现。',
+    'nav.rv': '房车', 'nav.about': '关于 & 联系', 'nav.gallery': '车型图库', 'nav.news': '新闻·知识', 'gallery.title': '凌扬车型图库', 'gallery.subtitle': '凌扬官方画册车型实拍——随车吊、房车、皮卡及各类专用车。', 'gallery.download': '下载完整画册（PDF）', 'gallery.view': '点击图片可放大查看', 'gallery.officialTitle': '凌扬官方车型实拍', 'gallery.officialSub': '取自凌扬产品画册的真实车型照片——每台车实拍呈现。',
     'footer.tagline': '中国正规资质专用车生产企业的海外拓展公司。你说要什么车，我们造好发你。',
     'footer.products': '产品', 'footer.company': '公司',
     'footer.about': '关于我们', 'footer.contact': '联系 / 询盘',
@@ -199,7 +199,7 @@ window.I18N = {
 
   ar: {
     'nav.home': 'الرئيسية', 'nav.trucks': 'رافعات شاحنات', 'nav.suv': 'تعديل بيك آب و SUV',
-    'nav.rv': 'المنازل المتنقلة', 'nav.about': 'من نحن & اتصل', 'nav.gallery': 'معرض الصور', 'gallery.title': 'معرض منتجات لينغيانغ', 'gallery.subtitle': 'صور رسمية من كتالوج لينغيانغ - رافعات شاحنات، منازل متنقلة، بيك آب ومركبات متخصصة.', 'gallery.download': 'تحميل الكتالوج الكامل (PDF)', 'gallery.view': 'انقر على الصورة للتكبير', 'gallery.officialTitle': 'صور المركبات الرسمية من HESIN', 'gallery.officialSub': 'صور حقيقية مستخرجة من كتالوج لينغيانغ - كل موديل كما هو.', 'contact.hub.title': 'تواصل معنا مباشرة', 'contact.hub.sub': 'رسالة واحدة تكفي — يرد فريق التصدير خلال 1–2 يوم عمل.', 'contact.act.wa': 'محادثة واتساب', 'contact.act.mail': 'راسلنا بالبريد', 'contact.act.tel': 'اتصل الآن', 'contact.scan.hint': 'امسح للإضافة',
+    'nav.rv': 'المنازل المتنقلة', 'nav.about': 'من نحن & اتصل', 'nav.gallery': 'معرض الصور', 'nav.news': 'الأخبار والأدلة', 'gallery.title': 'معرض منتجات لينغيانغ', 'gallery.subtitle': 'صور رسمية من كتالوج لينغيانغ - رافعات شاحنات، منازل متنقلة، بيك آب ومركبات متخصصة.', 'gallery.download': 'تحميل الكتالوج الكامل (PDF)', 'gallery.view': 'انقر على الصورة للتكبير', 'gallery.officialTitle': 'صور المركبات الرسمية من HESIN', 'gallery.officialSub': 'صور حقيقية مستخرجة من كتالوج لينغيانغ - كل موديل كما هو.', 'contact.hub.title': 'تواصل معنا مباشرة', 'contact.hub.sub': 'رسالة واحدة تكفي — يرد فريق التصدير خلال 1–2 يوم عمل.', 'contact.act.wa': 'محادثة واتساب', 'contact.act.mail': 'راسلنا بالبريد', 'contact.act.tel': 'اتصل الآن', 'contact.scan.hint': 'امسح للإضافة',
     'footer.tagline': 'قسم التوسع الخارجي لمصنّع صيني معتمد للمركبات المتخصصة. أخبرنا بما تحتاج، ونحن نبنيه ونشحنه إليك.',
     'footer.products': 'المنتجات', 'footer.company': 'الشركة',
     'footer.about': 'من نحن', 'footer.contact': 'اتصال / استفسار',
@@ -291,7 +291,7 @@ window.I18N = {
 
   ru: {
     'nav.home': 'Главная', 'nav.trucks': 'Крановые шасси', 'nav.suv': 'Тюнинг Пикапов и SUV',
-    'nav.rv': 'Автодома', 'nav.about': 'О нас & Контакты', 'nav.gallery': 'Галерея', 'gallery.title': 'Каталог LINGYANG', 'gallery.subtitle': 'Официальные фотографии моделей из каталога LINGYANG - крановые шасси, автодома, пикапы и спецтехника.', 'gallery.download': 'Скачать полный каталог (PDF)', 'gallery.view': 'Нажмите на фото, чтобы увеличить', 'gallery.officialTitle': 'Официальные фото HESIN', 'gallery.officialSub': 'Реальные фотографии из каталога LINGYANG — каждая модель как есть.',
+    'nav.rv': 'Автодома', 'nav.about': 'О нас & Контакты', 'nav.gallery': 'Галерея', 'nav.news': 'Новости и гиды', 'gallery.title': 'Каталог LINGYANG', 'gallery.subtitle': 'Официальные фотографии моделей из каталога LINGYANG - крановые шасси, автодома, пикапы и спецтехника.', 'gallery.download': 'Скачать полный каталог (PDF)', 'gallery.view': 'Нажмите на фото, чтобы увеличить', 'gallery.officialTitle': 'Официальные фото HESIN', 'gallery.officialSub': 'Реальные фотографии из каталога LINGYANG — каждая модель как есть.',
     'footer.tagline': 'Зарубежный экспансионный дивизион сертифицированного китайского производителя спецтехники. Скажите, что нужно — мы построим и отправим.',
     'footer.products': 'Продукция', 'footer.company': 'Компания',
     'footer.about': 'О нас', 'footer.contact': 'Контакт / Запрос',

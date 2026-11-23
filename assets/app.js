@@ -60,7 +60,7 @@ function buildNav() {
   const path = location.pathname.split('/').pop() || 'index.html';
   const links = [
     ['index.html', t('nav.home')], ['trucks.html', t('nav.trucks')],
-    ['suv.html', t('nav.suv')], ['rv.html', t('nav.rv')], ['gallery.html', t('nav.gallery')], ['about.html', t('nav.about')]
+    ['suv.html', t('nav.suv')], ['rv.html', t('nav.rv')], ['gallery.html', t('nav.gallery')], ['news.html', t('nav.news')], ['about.html', t('nav.about')]
   ];
   const items = links.map(([href, label]) =>
     `<a href="${href}" class="${path === href ? 'active' : ''}">${label}</a>`).join('');
@@ -89,6 +89,7 @@ function buildFooter() {
         <a href="suv.html">${t('nav.suv')}</a>
         <a href="rv.html">${t('nav.rv')}</a>
         <a href="gallery.html">${t('nav.gallery')}</a>
+        <a href="news.html">${t('nav.news')}</a>
       </div>
       <div>
         <h4>${t('footer.company')}</h4>
